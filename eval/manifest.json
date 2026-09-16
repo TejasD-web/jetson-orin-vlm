@@ -1,0 +1,16 @@
+{
+    "nba_game.jpg": {
+        "teams": ["Warriors"],
+        "jersey_numbers": [30, 10],
+        "jersey_colors": ["white", "gold", "blue"],
+        "scoreboard_text": null,
+        "broadcast_overlay": null
+    },
+    "test.jpg": {
+        "teams": [],
+        "jersey_numbers": [],
+        "jersey_colors": [],
+        "scoreboard_text": null,
+        "broadcast_overlay": null
+    }
+}

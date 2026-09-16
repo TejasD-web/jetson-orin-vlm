@@ -1,0 +1,2 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,response
+1,nba_game.jpg,1.919,479,39,112.214,187.14,1752.03,21.69,2877680,6072,"The basketball team shown in the image is the Golden State Warriors. The jerseys visible in the image have the following jersey numbers: 30, 32, and 33."

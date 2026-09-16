@@ -1,0 +1,11 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,response
+1,test.jpg,3.81,243,83,202.566,498.6,3585.655,22.87,3026756,5228,"```json
+{
+  ""teams"": [""Bulls"", ""Celtics""],
+  ""jersey_colors"": [""light blue"", ""black""],
+  ""arena_visible_text"": ""any text on scoreboard or signage"",
+  ""broadcast_overlay"": ""any TV network or score overlay text"",
+  ""estimated_era"": ""early 2000s"",
+  ""confidence"": ""high""
+}
+```"

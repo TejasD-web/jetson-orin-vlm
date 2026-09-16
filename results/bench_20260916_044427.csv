@@ -1,0 +1,10 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,response
+1,nba_game.jpg,3.965,575,86,215.134,543.85,3693.829,23.01,2859408,6072,"{
+  ""teams"": [""Warriors or null"", ""Rockets or null""],
+  ""jersey_numbers"": [3, 32],
+  ""jersey_colors"": [""white"", ""yellow""],
+  ""scoreboard_text"": ""visible text or null"",
+  ""broadcast_overlay"": ""visible text or null"",
+  ""estimated_era"": ""decade or null"",
+  ""confidence"": ""high""
+}"

@@ -1,0 +1,11 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,response
+1,nba_game.jpg,26.613,560,57,24167.465,23.17,2384.677,23.48,3015396,5228,"```json
+{
+  ""teams"": [null, null],
+  ""jersey_colors"": [null, null],
+  ""scoreboard_text"": null,
+  ""broadcast_overlay"": null,
+  ""estimated_era"": null,
+  ""confidence"": ""low""
+}
+```"

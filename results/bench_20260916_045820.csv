@@ -1,0 +1,12 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,teams_recall,teams_precision,jerseys_recall,jerseys_precision,colors_recall,colors_precision,model_confidence,json_valid,response
+1,test.jpg,3.477,251,74,209.121,521.23,3215.358,22.7,2842956,6072,,,,,,,low,True,"```json
+{
+  ""teams"": [""Cleveland Cavaliers"", ""Denver Nuggets""],
+  ""jersey_numbers"": [0, 4],
+  ""jersey_colors"": [""Blue"", ""Green""],
+  ""scoreboard_text"": null,
+  ""broadcast_overlay"": null,
+  ""estimated_era"": null,
+  ""confidence"": ""low""
+}
+```"

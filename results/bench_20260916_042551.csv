@@ -1,0 +1,11 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,response
+1,test.jpg,2.693,244,57,190.98,534.09,2465.666,22.71,3021064,5228,"```json
+{
+  ""teams"": [null, null],
+  ""jersey_colors"": [null, null],
+  ""scoreboard_text"": null,
+  ""broadcast_overlay"": null,
+  ""estimated_era"": null,
+  ""confidence"": ""low""
+}
+```"

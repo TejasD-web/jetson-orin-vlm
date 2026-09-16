@@ -1,0 +1,23 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,teams_recall,teams_precision,jerseys_recall,jerseys_precision,colors_recall,colors_precision,model_confidence,json_valid,response
+1,nba_game.jpg,3.324,567,73,89.446,11.18,3179.757,22.64,2825076,6072,1.0,1.0,0.0,0.0,0.6666666666666666,0.6666666666666666,high,True,"```json
+{
+  ""teams"": [""Warriors""],
+  ""jersey_numbers"": [""30"", ""3""],
+  ""jersey_colors"": [""white"", ""yellow"", ""blue""],
+  ""scoreboard_text"": null,
+  ""broadcast_overlay"": null,
+  ""estimated_era"": null,
+  ""confidence"": ""high""
+}
+```"
+1,test.jpg,2.535,251,59,42.601,23.47,2417.441,23.99,2817092,6072,,,,,,,high,True,"```json
+{
+  ""teams"": null,
+  ""jersey_numbers"": null,
+  ""jersey_colors"": null,
+  ""scoreboard_text"": null,
+  ""broadcast_overlay"": null,
+  ""estimated_era"": null,
+  ""confidence"": ""high""
+}
+```"

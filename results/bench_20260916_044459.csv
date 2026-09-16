@@ -1,0 +1,12 @@
+run,image,wall_time_s,prompt_tokens,completion_tokens,prompt_ms,prompt_tok_s,decode_ms,decode_tok_s,mem_available_kb,cma_free_kb,response
+1,nba_game.jpg,3.437,567,74,204.651,532.61,3181.643,22.94,2842728,6072,"```json
+{
+  ""teams"": [""Warriors""],
+  ""jersey_numbers"": [30, 34],
+  ""jersey_colors"": [""White"", ""Yellow"", ""Blue""],
+  ""scoreboard_text"": null,
+  ""broadcast_overlay"": null,
+  ""estimated_era"": null,
+  ""confidence"": ""high""
+}
+```"
