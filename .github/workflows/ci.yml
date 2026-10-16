@@ -22,7 +22,7 @@ jobs:
 
       - run: pip install -r requirements.txt pytest
 
-      - run: python -m pytest tests/ -v
+      - run: python -m pytest -v
 
   # ---------- C++ (tools) ----------
   cpp:
