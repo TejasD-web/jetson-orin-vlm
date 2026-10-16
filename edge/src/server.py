@@ -56,8 +56,7 @@ app.add_middleware(
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "model": app.state.model_name}
-
+    return {"status": "ok", "model": getattr(app.state, "model_name", settings.model_name)}
 
 @app.get("/v1/models")
 async def list_models():
@@ -65,8 +64,8 @@ async def list_models():
         "object": "list",
         "data": [
             {
-                "id": app.state.model_name,
-                "object": "model",
+            	"id": getattr(app.state, "model_name", settings.model_name),                
+		"object": "model",
                 "owned_by": "local",
             }
         ],
