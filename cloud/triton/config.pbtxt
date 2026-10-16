@@ -1,0 +1,29 @@
+name: "vllm_qwen"
+backend: "vllm"
+
+instance_group [
+  {
+    count: 1
+    kind: KIND_GPU
+  }
+]
+
+parameters {
+  key: "model"
+  value: { string_value: "Qwen/Qwen2.5-VL-7B-Instruct" }
+}
+
+parameters {
+  key: "tensor_parallel_size"
+  value: { string_value: "1" }
+}
+
+parameters {
+  key: "max_model_len"
+  value: { string_value: "4096" }
+}
+
+parameters {
+  key: "gpu_memory_utilization"
+  value: { string_value: "0.90" }
+}

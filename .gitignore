@@ -1,10 +1,44 @@
+# Models
 *.gguf
 *.safetensors
 *.bin
 *.pt
 hf-cache/
 models/
+
+# Python
 __pycache__/
 *.pyc
 .venv/
 venvs/
+*.egg-info/
+dist/
+
+# C++ build
+build/
+cmake-build-*/
+compile_commands.json
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Node (frontend)
+node_modules/
+.next/
